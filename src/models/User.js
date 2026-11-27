@@ -5,9 +5,8 @@ const userSchema = new mongoose.Schema(
     {
         role: {
             type: String,
-            enum: ["Student", "Intern", "Technical Team Member"],
+            enum: ["Student", "Intern", "Technical Team Member", "Admin", "Manager", "Employee", "student", "intern", "technical team member", "admin", "manager", "employee"],
             required: true
-
         },
 
         name: {
